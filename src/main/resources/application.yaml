@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+rabbit-config:
+  connections:
+    first:
+      vhost: first
+      queue: q1
+    second:
+      vhost: second
+      queue: q2
